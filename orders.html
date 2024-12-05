@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/orders.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="body">
+    <article class="article">
+        <nav class="nav">
+            <img src="./images/userPhoto.svg" class="avatar" alt="#">
+            <div class="user_data">
+            <h2 class="name">Антон Ларичев</h2>
+            <p class="email">alaricode@ya.ru</p>
+            </div>
+            <ul class="nav_list">
+                <li class="list_item">
+                    <a href="./index.html" class="list_item_link">
+                        <img src="./images/menu-icon.svg" alt="#" class="list_item_text">
+                        <p class="list_item_text">Меню</p>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="./orders.html" class="list_item_link">
+                        <img src="./images/cart-icon.svg" alt="#" class="list_item_text">
+                        <p class="list_item_text">Корзина</p>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="./profile.html" class="list_item_link">
+                        <img src="./images/userIcon.svg" alt="#" class="list_item_text">
+                        <p class="list_item_text">Профиль</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="./login.html">
+            <button class="log_out">
+                <img src="./images/logout.svg" alt="#">
+                <label class="btn_text">Выйти</label>
+            </button>
+            </a>
+        </nav>
+    </article>
+    <section class="main_right">
+          <h2 class="cart_title">Корзина</h2>
+          <div class="carts">
+            <div class="cart_item">
+                <div class="left">
+                    <img src="./images/productImg.png" alt="" class="product_img">
+                    <div class="product_info">
+                        <h3 class="product_title">Аццки острая</h3>
+                        <p class="product_text">320 ₽</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="minus">
+                    <img src="./images/minus.svg" alt="#">
+                    </div>
+                    <label for="" class="product_count">01</label>
+                    <div class="plus">
+                    <img src="./images/plus.svg" alt="#">
+                    </div>
+                    <img src="./images/close.svg" alt="#" class="close">
+                </div>
+            </div>
+            <div class="cart_item">
+                <div class="left">
+                    <img src="./images/productImg.png" alt="" class="product_img">
+                    <div class="product_info">
+                        <h3 class="product_title">Аццки острая</h3>
+                        <p class="product_text">320 ₽</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="minus">
+                    <img src="./images/minus.svg" alt="#">
+                    </div>
+                    <label for="" class="product_count">01</label>
+                    <div class="plus">
+                    <img src="./images/plus.svg" alt="#">
+                    </div>
+                    <img src="./images/close.svg" alt="#" class="close">
+                </div>
+            </div>
+          </div>
+           
+          <div class="code">
+          <input type="text" class="code_input" placeholder="Промокод">
+          <button class="code_btn">Применить</button>
+        </div>
+
+          <table class="table">
+             <tr>
+                <td>Итог</td>
+                <td>640 $</td>
+             </tr>
+             <tr>
+                <td>Доставка</td>
+                <td>169 $</td>
+             </tr>
+             <tr>
+                <td>Итог (2)</td>
+                <td>809 $</td>
+             </tr>
+          </table>
+           
+          <a href="./success_order.html"><button class="make_order">оформить</button></a>
+    </section>
+</body>
+</html>

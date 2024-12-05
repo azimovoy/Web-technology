@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/product.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="body">
+    <article class="article">
+        <nav class="nav">
+            <img src="./images/userPhoto.svg" class="avatar" alt="#">
+            <div class="user_data">
+            <h2 class="name">Антон Ларичев</h2>
+            <p class="email">alaricode@ya.ru</p>
+            </div>
+            <ul class="nav_list">
+                <li class="list_item">
+                    <a href="./index.html" class="list_item_link">
+                        <img src="./images/menu-icon.svg" alt="#" class="list_item_text">
+                        <p class="list_item_text">Меню</p>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="./orders.html" class="list_item_link">
+                        <img src="./images/cart-icon.svg" alt="#" class="list_item_text">
+                        <p class="list_item_text">Корзина</p>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="./profile.html" class="list_item_link">
+                        <img src="./images/userIcon.svg" alt="#" class="list_item_text">
+                        <p class="list_item_text">Профиль</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="./login.html">
+            <button class="log_out">
+                <img src="./images/logout.svg" alt="#">
+                <label class="btn_text">Выйти</label>
+            </button>
+            </a>
+        </nav>
+    </article>
+    <section class="main_right">
+        <header class="header">
+            <div>
+                <a href="./index.html" class="left_icon">
+                    <img src="./images/left.svg" alt="#">
+                </a>
+                <h1 class="header_title">Наслаждение</h1>
+            </div>
+            <a href="./orders.html">
+                <button class="add_to_cart">
+                    <img src="./images/add_cart.svg" alt="">
+                    <label>В корзину</label>
+                </button>
+            </a>
+        </header>
+        <main class="main">
+            <div class="left">
+                <img src="./images/productImg.png" alt="" class="product_img">
+            </div>
+            <div class="right">
+                <div class="price_box">
+                    <h3 class="price_title">Цена</h3>
+                    <span class="price">400 $</span> 
+                </div>
+                <div class="rating_box">
+                    <h3 class="rating">Рейтинг</h3>
+                    <div class="product_rating">
+                        <label class="rate">4.5</label>
+                        <img src="./images/star.svg" alt="#">
+                    </div>
+                </div>
+                <h3 class="ul_title">Состав:</h3>
+                <ul class="list">
+                    <li class="list_item">Салями</li>
+                    <li class="list_item">Руккола</li>
+                    <li class="list_item">Помидоры</li>
+                    <li class="list_item">Оливки</li>
+                </ul>
+            </div>
+        </main>
+    </section>
+</body>
+</html>

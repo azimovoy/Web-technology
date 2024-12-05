@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/register.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <section class="main">
+        <div class="left">
+            <img src="./images/logo.svg" alt="#">
+        </div>
+        <div class="right">
+        <main class="right_main">
+            <h2 class="login_title">Регистрация</h2>
+            <form class="forms" method="post" action="" id="form_id">
+                <div>
+                    <label class="input_label">Ваш email</label>
+                    <input type="email" name="email" class="login_input" id="email_id" placeholder="Email">
+                </div>
+                <div>
+                    <label class="input_label">Ваш пароль</label>
+                    <input type="password" name="password" class="login_input" id="password_id" placeholder="Пароль">
+                </div>
+                <div>
+                    <label class="input_label">Ваше имя</label>
+                    <input type="text" name="name" class="login_input" id="name_id" placeholder="Имя">
+                </div>
+            </form>
+            <div class="error_messages" id="errors"></div>
+            <div class="btns">
+            <a href="./login.html"><button class="login_btn" type="submit" id="button_id">Зарегистрироваться</button></a>
+            <p class="no_account">Есть акканут?</p>
+            <a href="./login.html" class="register">Войти</a>
+            </div>
+        </main>
+        </div>
+    </section>
+    <script src="./scripts/register.js"></script>
+</body>
+</html>

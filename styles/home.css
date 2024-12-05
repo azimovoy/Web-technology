@@ -1,0 +1,280 @@
+h1, h2, h3, p, ul {
+    margin: 0;
+}
+
+.body {
+    display: flex;
+    gap: 63px;
+}
+
+.article {
+    padding: 30px;
+    border: 1px solid #d4d6e0;
+    max-width: 240px;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 25px;
+}
+
+.user_data {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.name {
+    color: #000000;
+    font-family: 'Open-Sans-Regular';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.email {
+    color: #9ea1b1;
+    font-size: 14px;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.list_item_link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.list_item_text {
+    width: 17px;
+    height: 17px;
+}
+
+.log_out {
+    margin-top: 365px;
+    display: flex;
+    gap: 10px;
+    border-radius: 28.5px;
+    box-shadow: 0px 10px 30px 0px #fe724c33;
+    background: #fe724c;
+    padding: 10px;
+    align-items: center;
+}
+
+.btn_text {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.main_right {
+   width: 100%;
+}  
+
+.btn_sort:hover .sort_modal {
+    display: block;
+}
+
+.sort_modal {
+    display: none;
+    width: 160px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+}     
+
+.modal_item {
+    cursor: pointer;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.modal_item:last-of-type {
+    border: none; 
+ }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    margin-right: 60px;
+}
+
+.header div {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.header_title {
+    color: #000000;
+    font-family: 'Open-Sans-Bold';
+    font-size: 36.41px;
+}
+
+.btn_sort {
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    background: #fcfcfd;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 12px;
+    max-width: 187px;
+    width: 100%;
+    position: relative;
+}
+
+.sort_text {
+    color: #9aa0b4;
+    font-size: 14px;
+}
+
+.search {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    background: #fcfcfd;
+}
+
+.seach_input {
+    color: rgb(154, 160, 180);
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+
+.main {
+    margin-right: 20px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.product {
+    border-radius: 18.21px;
+    box-shadow: 18.21px 18.21px 36.43px 0px #d3d1d840;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 323px;
+    width: 100%;
+}
+
+.product_img {
+    max-width: 325px;
+    height: 165px;
+    border-radius: 18.21px;
+    background: #c4c4c4;
+    margin-bottom: 23px;
+}
+
+.product_title {
+    color: #000000;
+    font-family: 'Open-Sans-SemiBold';
+    font-size: 18.21px;
+    margin-left: 13px;
+}
+
+.product_text {
+    color: #5b5b5e;
+    font-size: 14.57px;
+    margin-left: 13px;
+    margin-bottom: 20px;
+}
+
+.product_rating {
+    border-radius: 136px;
+    box-shadow: 0px 6.07px 24.29px 0px #fe724c33;
+    background: #ffffff;
+    position: absolute;
+    left: 20px;
+    bottom: 65px;
+    padding: 6px 9px;
+    display: flex;
+    gap: 5px;
+}
+
+.price {
+    border-radius: 121.43px;
+    box-shadow: 0px 7.1px 28.4px 0px #fe724c33;
+    background: #ffffff;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    padding: 10px 17px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.add_to_cart {
+    position: absolute;
+    box-shadow: 0px 8.5px 18.21px 0px #fe724c66;
+    background: #fe724c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    top: 12px;
+    right: 15px;
+}
+
+.mention {
+    position: absolute;
+    font-size: 10px;
+    color: red;
+    z-index: 2;
+    top: 10px;
+}
+
+@media (max-width: 1230px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .log_out {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 930px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 620px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
